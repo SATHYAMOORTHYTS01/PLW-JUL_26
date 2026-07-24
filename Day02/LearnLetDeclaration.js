@@ -1,11 +1,11 @@
 // 1.delcaration
 let course;
 
-// 2. initialization
+// 2. initialization // assigning a value is allowed in the let and const
 course = 'Playwright';
 console.log(course);
 
-// 3. re-initialization
+// 3. re-initialization // updating the value is allowed in the let and const
 course = 'Cypress';
 console.log(course);
 

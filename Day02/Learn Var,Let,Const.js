@@ -21,18 +21,14 @@ var courseName = 'Playwright';
 
 // 6.scoping
 
-var courseName = 'Playwright';
-
-
 function Getnationality() { //function scope
 
     { // block scope - means the variable is accessible only within this block 
         let nationality = 'Indian';
-    
+        console.log(nationality);
     }
-    console.log(nationality);
+    
 }
-
 Getnationality()
 
 
